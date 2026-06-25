@@ -36,9 +36,7 @@ The Flask app runs inside a Docker container on EC2 and listens on port 5000. Th
 - Private networking with security group based access control.
 - Ubuntu Linux as the host operating system.
 
-
 ## Project structure
-bash
 
 Flask-app-deployment-in-aws/
 ├── architecture/
