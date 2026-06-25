@@ -38,27 +38,29 @@ The Flask app runs inside a Docker container on EC2 and listens on port 5000. Th
 
 ## Project structure
 
-Flask-app-deployment-in-aws/
-├── architecture/
-│   └── architecture.png
-├── docker-compose/
-│   └── docker-compose.yml
-├── docs/
-│   ├── configuration.md
-│   └── troubleshooting.md
-├── screenshots/
-│   ├── alb.png
-│   ├── docker-ps.png
-│   ├── ec2.png
-│   ├── ecr.png
-│   ├── iam.png
-│   ├── output.png
-│   ├── vpc-endpoint.png
-│   └── vpc.png
-├── scripts/
-│   ├── command.sh
-│   └── install-docker.sh
-└── README.md
+# Project Structure
+
+- Flask-app-deployment-in-aws/
+- architecture/
+  - architecture.png
+- docker-compose/
+  - docker-compose.yml
+- docs/
+  - configuration.md
+  - troubleshooting.md
+- screenshots/
+  - alb.png
+  - docker-ps.png
+  - ec2.png
+  - ecr.png
+  - iam.png
+  - output.png
+  - vpc-endpoint.png
+  - vpc.png
+- scripts/
+  - command.sh
+  - install-docker.sh
+- README.md
 
 ## Deployment summary
 1. Launch EC2 instance
